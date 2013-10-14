@@ -7,9 +7,11 @@ EXECUTABLE=main
 
 .phony: all clean
 
+all: clean $(SOURCES) $(EXECUTABLE)
+	
 start: all
 	./main
-all: clean $(SOURCES) $(EXECUTABLE)
+
 clean: 
 	rm -rf $(EXECUTABLE)
 	rm -rf $(OBJECTS)

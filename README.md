@@ -17,7 +17,7 @@ int main(void)
 }
 ```
 
-Although `calc` magically appears, it's at least only *one* var, which represents the `module.exports` and allows
+Although `calc` magically appears, it's at least only **one** var, which represents the `module.exports` and allows
 accessing all exposed functions.
 
 In order to make this work `CalcExports` also becomes available, but can be safely ignored.
